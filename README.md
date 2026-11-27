@@ -54,7 +54,6 @@
 ## 说明 / Notes
 
 - 所有插件在 SourceMod 1.12（SourcePawn）下编译，向后兼容 1.10+ / All plugins are compiled under SourceMod 1.12 (SourcePawn) and compatible with 1.10+.
-- `funcommandsX`、`l4d2_config_vote`、`l4d2_custom_commands` 三个目录内含**旧版原始**与**新版修复**两套完整文件，便于对比 / Three folders (`funcommandsX`, `l4d2_config_vote`, `l4d2_custom_commands`) archive both the **original old version** and the **fixed new version** for comparison.
 
 ## License / 许可证
 
@@ -66,7 +65,6 @@
 |---|---|---|
 | `l4d_pushdrag` | Pan Xiaohai（v1.2）| 本仓库为大幅优化/修复版（v2.5.0），原作版权归原作者 / heavily optimized & fixed edition; original copyright belongs to the original author |
 | `l4d2_config_vote` | fdxx, kita | 会话保持补丁版（v1.1），原作版权归原作者 / session-persistence patch (v1.1) |
-| `funcommandsX` / `l4d2_custom_commands` | 社区流传版本原作者 / original community authors | 修复/重构版，原作版权归原作者 / fixed & refactored editions |
-| `DiageticChat` | 客户端 MOD "Diagetic Chat Messages" 原作者 | 由 VScript MOD 移植为服务端插件 / ported from the client-side VScript MOD |
+| `DiageticChat` | 客户端 MOD "Diagetic Chat Messages" 原作者 by andy | 由 VScript MOD 移植为服务端插件 / ported from the client-side VScript MOD |
 
 编译所依赖的第三方库（multicolors、morecolors 等 include）遵循其各自的许可证 / Third-party libraries used for compilation (multicolors, morecolors, etc.) are governed by their own licenses.
