@@ -1,0 +1,110 @@
+"Phrases"
+{
+	"Item_Medkit"
+	{
+		"en"	"First Aid Kit"
+		"ru"	"аптечку"
+		"chi"	"医疗包"
+		"zho"	"醫療包"
+	}
+
+	"Item_Defib"
+	{
+		"en"	"Defibrillator"
+		"ru"	"дефибриллятор"
+		"chi"	"电击器"
+		"zho"	"電擊器"
+	}
+
+	"Item_Incendiary"
+	{
+		"en"	"Incendiary Ammo Pack"
+		"ru"	"пачку зажигательных патронов"
+		"chi"	"燃烧弹药箱"
+		"zho"	"燃燒彈藥箱"
+	}
+
+	"Item_Explosive"
+	{
+		"en"	"Explosive Ammo Pack"
+		"ru"	"пачку разрывных патронов"
+		"chi"	"高爆弹药箱"
+		"zho"	"高爆彈藥箱"
+	}
+
+	"Item_Molotov"
+	{
+		"en"	"Molotov"
+		"ru"	"коктейль Молотова"
+		"chi"	"燃烧瓶"
+		"zho"	"燃燒瓶"
+	}
+
+	"Item_Pipebomb"
+	{
+		"en"	"Pipe Bomb"
+		"ru"	"самодельную бомбу"
+		"chi"	"土制炸弹"
+		"zho"	"土製炸彈"
+	}
+
+	"Item_Bile"
+	{
+		"en"	"Bile Jar"
+		"ru"	"банку желчи"
+		"chi"	"胆汁罐"
+		"zho"	"膽汁罐"
+	}
+
+	"GaveItem"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"	"{green}[Notice] {lightgreen}{1}{olive} handed {lightgreen}{2}{olive} a {green}{3}"
+		"ru"	"{green}[Сообщение] {lightgreen}{1}{olive} передал {lightgreen}{2}: {green}{3}"
+		"chi"	"{green}[提示]{lightgreen}{1}{olive}递给了{lightgreen}{2}{olive}一个{green}{3}"
+		"zho"	"{green}[提示]{lightgreen}{1}{olive}遞給了{lightgreen}{2}{olive}一個{green}{3}"
+	}
+
+	"HintGave"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"	"You handed {2} to {1}"
+		"ru"	"Вы передали {2} игроку {1}"
+		"chi"	"已把 {2} 递给 {1}"
+		"zho"	"已把 {2} 遞給 {1}"
+	}
+
+	"HintGot"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"	"{1} handed you {2}"
+		"ru"	"{1} передал вам {2}"
+		"chi"	"{1} 递给你 {2}"
+		"zho"	"{1} 遞給你 {2}"
+	}
+
+	"FailSlotFull"
+	{
+		"#format"	"{1:s}"
+		"en"	"{green}[Notice] {lightgreen}{1}{olive} already carries this kind of item"
+		"ru"	"{green}[Сообщение] {lightgreen}{1}{olive} уже несёт такой предмет"
+		"chi"	"{green}[提示]{lightgreen}{1}{olive}已携带同类物品，无法递给"
+		"zho"	"{green}[提示]{lightgreen}{1}{olive}已攜帶同類物品，無法遞給"
+	}
+
+	"FailIncap"
+	{
+		"en"	"{green}[Notice]{olive}You cannot hand items to an incapped teammate"
+		"ru"	"{green}[Сообщение]{olive}Нельзя передать предмет лежащему игроку"
+		"chi"	"{green}[提示]{olive}无法递给倒地的队友"
+		"zho"	"{green}[提示]{olive}無法遞給倒地的隊友"
+	}
+
+	"FailGive"
+	{
+		"en"	"{green}[Notice]{olive}Hand-off failed, the item was returned to you"
+		"ru"	"{green}[Сообщение]{olive}Не удалось передать, предмет возвращён"
+		"chi"	"{green}[提示]{olive}递物失败，物品已退还"
+		"zho"	"{green}[提示]{olive}遞物失敗，物品已退還"
+	}
+}
