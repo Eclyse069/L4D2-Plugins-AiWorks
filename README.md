@@ -21,9 +21,6 @@
 3. [l4d_pushdrag](./l4d_pushdrag/): Grab, drag and throw props, players, teammates, enemy special infected, Witches and map ragdolls (double-tap R). Heavily optimized and fixed edition of Pan Xiaohai's "Push And Drag" (v2.5.0): all launch-fling bugs fixed, mechanism entities protected, fall-damage protection, stagger-cancel via engine CancelStagger, spectator support, 4 languages, 52 cvars.
    > 推人拖物插件优化版（v2.5.0）：双击 R 抓取物件/玩家/特感/Witch/布娃娃，任意拖动投掷；修复原版弹飞等老 bug，支持旁观者抓取、硬直真取消、击杀归属投掷者，52 项 cvar 可调。
 
-4. [funcommandsX](./funcommandsX/): Admin fun commands including `sm_fakesay` (fake a player's chat message), fixed to use the full-width Chinese colon format `[玩家]：[内容]` instead of `[玩家] :  [内容]`, matching Chinese chat convention. Both the original and fixed versions are archived.
-   > sm_fakesay 中文冒号格式修复：伪装说话格式改为全角冒号、无空格，符合中文聊天习惯；含旧版原始与新版修复双归档。
-
 ### 服务器管理 · Server Management & Tools
 
 5. [l4d2_config_vote](./l4d2_config_vote/): Makes cvars changed through in-game votes survive map changes — a session-persistence patch for fdxx/kita's config vote plugin. Direct cvar assignments and `exec match_votes/...` configs passed by vote are replayed after every map's cfg execution; one-shot commands are never replayed. `sm_votecfg_clear` resets everything.
