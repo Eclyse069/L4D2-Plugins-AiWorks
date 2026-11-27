@@ -1,4 +1,4 @@
-# l4d2_custom_commands — 国际化重构 + 抓取修复 + 隐形变体
+# l4d2_custom_commands — 国际化重构 + 抓取修复 + 隐形变体 原版地址：https://forums.alliedmods.net/showthread.php?p=1251446 by Author: honorcode23
 
 > 旧版原始 + 新版修复双归档 ｜ test 服已部署新版（Status: running，无错误）
 
@@ -51,7 +51,7 @@
 
 ## English
 
-# l4d2_custom_commands — i18n Refactor + Grab Fix + Invisible Variant
+# l4d2_custom_commands — i18n Refactor + Grab Fix + Invisible Variant Org form https://forums.alliedmods.net/showthread.php?p=1251446 by Author: honorcode23
 
 > Both the original old version and the fixed new version are archived | the new version is deployed on the test server (Status: running, no errors)
 
