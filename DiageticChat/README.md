@@ -1,7 +1,7 @@
 # DiageticChat — 聊天消息"头顶气泡"插件
 
 > v1.0 ｜ SourceMod 1.12 ｜ L4D2
-> 由客户端 MOD "Diagetic Chat Messages"（`scripts/vscripts/diagetic_chat.nut`，893 行）移植
+> 由客户端 MOD "Diagetic Chat Messages"（`scripts/vscripts/diagetic_chat.nut`，893 行）原版：https://steamcommunity.com/sharedfiles/filedetails/?id=3845483475
 
 ## 功能
 
@@ -53,7 +53,7 @@
 # DiageticChat — Chat Message "Overhead Bubble" Plugin
 
 > v1.0 | SourceMod 1.12 | L4D2
-> Ported from the client-side MOD "Diagetic Chat Messages" (`scripts/vscripts/diagetic_chat.nut`, 893 lines)
+> Ported from the client-side MOD "Diagetic Chat Messages" (`scripts/vscripts/diagetic_chat.nut`, 893 lines) from：https://steamcommunity.com/sharedfiles/filedetails/?id=3845483475
 
 ## Features
 
