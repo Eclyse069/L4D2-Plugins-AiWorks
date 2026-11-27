@@ -1,0 +1,564 @@
+"Phrases"
+{
+	"AlreadyIncap"
+	{
+		"zho"		"不能擊倒已經倒地的倖存者!"
+	}
+	"BodiesWiped"
+	{
+		"#format"		"{1:i}"
+		"zho"		"成功清除 {1:i} 個屍體"
+	}
+	"ClientInvalid"
+	{
+		"zho"		"客戶端無效"
+	}
+	"DontRushHint"
+	{
+		"zho"		"你因為衝太快而被送回起點!"
+	}
+	"EntitiesWiped"
+	{
+		"#format"		"{1:i},{2:s}"
+		"zho"		"成功刪除 {1:i} 個 <{2:s}>"
+	}
+	"EntityClassname"
+	{
+		"#format"		"{1:s}"
+		"zho"		"類名: {1:s}"
+	}
+	"ExampleCreateParticle"
+	{
+		"zho"		"範例: !createparticle @me no 5 (粒子傳送到我的位置, 不掛接, 5秒後停止效果)"
+	}
+	"ExampleSetModel"
+	{
+		"zho"		"範例: !setmodel @me models/props_interiors/table_bedside.mdl"
+	}
+	"ExampleSetModelEntity"
+	{
+		"zho"		"範例: !setmodelentity infected models/props_interiors/table_bedside.mdl"
+	}
+	"GnomeRainHint"
+	{
+		"zho"		"下矮人玩具雨啦!"
+	}
+	"GnomesWiped"
+	{
+		"#format"		"{1:i}"
+		"zho"		"成功清除 {1:i} 個矮人玩具"
+	}
+	"GodModeOff"
+	{
+		"zho"		"選定玩家上帝模式 [關閉]"
+	}
+	"GodModeOn"
+	{
+		"zho"		"選定玩家上帝模式 [開啟]"
+	}
+	"GrabAlreadyHolding"
+	{
+		"zho"		"你已經持有一個entity"
+	}
+	"GrabAlreadyMoved"
+	{
+		"zho"		"該entity已經移動過"
+	}
+	"GrabCancelled"
+	{
+		"zho"		"抓取已取消 (對象已失效)"
+	}
+	"GrabInvalid"
+	{
+		"zho"		"該entity無效"
+	}
+	"GrabReleased"
+	{
+		"zho"		"你不再持有一個object"
+	}
+	"GrabSuccess"
+	{
+		"zho"		"你現在正拿著一個entity"
+	}
+	"GrabSuccessInv"
+	{
+		"zho"		"你現在正拿著一個entity (僅自己可見, 碰撞保留)"
+	}
+	"HelpAcidSpill"
+	{
+		"zho"		"- 'sm_acidspill': 在指定玩家位置生成Spitter酸液 (用法: sm_acidspill <#userid|name>) | 範例: !acidspill @me"
+	}
+	"HelpAdren"
+	{
+		"zho"		"- 'sm_adren': 給玩家腎上腺素效果 (用法: sm_adren <#userid|name>) | 範例: !adren Nick"
+	}
+	"HelpAirstrike"
+	{
+		"zho"		"- 'sm_airstrike': 對目標發動空襲 (用法: sm_airstrike <#userid|name>) | 範例: !airstrike @me"
+	}
+	"HelpBleedPlayer"
+	{
+		"zho"		"- 'sm_bleedplayer': 強制玩家流血 (用法: sm_bleedplayer <#userid|name> <duration>) | 範例: !bleedplayer @me 7"
+	}
+	"HelpChangeHp"
+	{
+		"zho"		"- 'sm_changehp': 在暫時/永久血量間切換 (用法: sm_changehp <#userid|name> <perm|temp>) | 範例: !changehp @me perm"
+	}
+	"HelpCharge"
+	{
+		"zho"		"- 'sm_charge': 把倖存者衝飛出去 (用法: sm_charge <#userid|name>) | 範例: !charge Coach"
+	}
+	"HelpCheat"
+	{
+		"zho"		"- 'sm_cheat': 繞過限制執行任意指令 (用法: sm_cheat <command> <arguments>*) | 範例: !cheat z_spawn 'tank auto'"
+	}
+	"HelpCmdPlayer"
+	{
+		"zho"		"- 'sm_cmdplayer': 控制玩家的控制台 (用法: sm_cmdplayer <#userid|name> <command>) | 範例: !cmdplayer 玩家名 '+forward'"
+	}
+	"HelpColorPlayer"
+	{
+		"zho"		"- 'sm_colorplayer': 設定玩家模型顏色 (用法: sm_colorplayer <#userid|name> <R G B A>) | 範例: !colorplayer @me '24 34 38 0'"
+	}
+	"HelpColorTarget"
+	{
+		"zho"		"- 'sm_colortarget': 改變準星指向entity的顏色 (用法: sm_colortarget <R G B A>) | 範例: !colortarget '43 55 255 179'"
+	}
+	"HelpCreateParticle"
+	{
+		"zho"		"- 'sm_createparticle': 建立粒子, 可選掛接 (用法: sm_createparticle <#userid|name> <particle> <parent: yes|no> <duration>) | 範例: !createparticle @me ParticleName no 5"
+	}
+	"HelpDontRush"
+	{
+		"zho"		"- 'sm_dontrush': 強制玩家回到起始安全屋 (用法: sm_dontrush <#userid|name>) | 範例: !dontrush 衝鋒者名字"
+	}
+	"HelpGnomeRain"
+	{
+		"zho"		"- 'sm_gnomerain': 在你所在位置下矮人玩具雨 | 範例: !gnomerain"
+	}
+	"HelpGnomeWipe"
+	{
+		"zho"		"- 'sm_gnomewipe': 刪除地圖上所有矮人玩具 | 範例: !gnomewipe"
+	}
+	"HelpGodMode"
+	{
+		"zho"		"- 'sm_godmode': 開啟/關閉玩家上帝模式 (用法: sm_godmode <#userid|name>) | 範例: !godmode @me"
+	}
+	"HelpGrabEntity"
+	{
+		"zho"		"- 'sm_grabentity': 抓取準星指向的entity | 範例: !grabentity"
+	}
+	"HelpGrabEntityInv"
+	{
+		"zho"		"- 'sm_grabentity_inv': 抓取entity, 僅自己可見 (碰撞照常) | 範例: !grabentity_inv"
+	}
+	"HelpHeader"
+	{
+		"zho"		"********************** 自訂指令列表 **********************"
+	}
+	"HelpHintText"
+	{
+		"zho"		"- 'sm_hinttext': 向所有玩家顯示提示文本 (用法: sm_hinttext <hint>) | 範例: !hinttext '這是一條提示文本'"
+	}
+	"HelpIgnite"
+	{
+		"zho"		"- 'sm_ignite': 點燃倖存者玩家 (用法: sm_ignite <#userid|name> <duration>) | 範例: !ignite @me 4"
+	}
+	"HelpIncapPlayer"
+	{
+		"zho"		"- 'sm_incapplayer': 使倖存者或Tank倒地 (用法: sm_incapplayer <#userid|name>) | 範例: !incapplayer @me"
+	}
+	"HelpL4dRain"
+	{
+		"zho"		"- 'sm_l4drain': 下L4D1倖存者雨 | 範例: !l4drain"
+	}
+	"HelpNoRescue"
+	{
+		"zho"		"- 'sm_norescue': 強制救援車輛離開 | 範例: !norescue"
+	}
+	"HelpOldMovie"
+	{
+		"zho"		"- 'sm_oldmovie': 讓玩家進入黑白狀態 (用法: sm_oldmovie <#userid|name>) | 範例: !oldmovie @me"
+	}
+	"HelpOpenConsole"
+	{
+		"zho"		"開啟控制台查看命令列表"
+	}
+	"HelpOptionalArg"
+	{
+		"zho"		"*: 可選參數"
+	}
+	"HelpPanic"
+	{
+		"zho"		"- 'sm_panic': 無視Director強制屍潮 | 範例: !panic"
+	}
+	"HelpRCheat"
+	{
+		"zho"		"- 'sm_rcheat': 在伺服器控制台執行任意指令 (用法: sm_rcheat <command>) | 範例: !rcheat director_stop"
+	}
+	"HelpRevive"
+	{
+		"zho"		"- 'sm_revive': 救起倒地的玩家 (用法: sm_revive <#userid|name>) | 範例: !revive Coach"
+	}
+	"HelpScanModel"
+	{
+		"zho"		"- 'sm_scanmodel': 掃描準星entity的模型 | 範例: !scanmodel"
+	}
+	"HelpSetExplosion"
+	{
+		"zho"		"- 'sm_setexplosion': 在腳下或準星位置製造爆炸 (用法: sm_setexplosion <position | cursor>) | 範例: !setexplosion position"
+	}
+	"HelpSetHpPlayer"
+	{
+		"zho"		"- 'sm_sethpplayer': 設定玩家生命值 (用法: sm_sethpplayer <#userid|name> <amount>) | 範例: !sethpplayer @me 50"
+	}
+	"HelpSetModel"
+	{
+		"zho"		"- 'sm_setmodel': 設定玩家模型 (用法: sm_setmodel <#userid|name> <model>) | 範例: !setmodel @me models/props_interiors/table_bedside.mdl"
+	}
+	"HelpSetModelEntity"
+	{
+		"zho"		"- 'sm_setmodelentity': 設定所有匹配類名entity的模型 (用法: sm_setmodelentity <classname> <model>) | 範例: !setmodelentity infected models/props_interiors/table_bedside.mdl"
+	}
+	"HelpShakePlayer"
+	{
+		"zho"		"- 'sm_shakeplayer': 在指定時間內搖晃玩家螢幕 (用法: sm_shake <#userid|name> <duration>) | 範例: !shakeplayer @me 5"
+	}
+	"HelpShove"
+	{
+		"zho"		"- 'sm_shove': 推開玩家 (用法: sm_shove <#userid|name>) | 範例: !shove @all"
+	}
+	"HelpSizePlayer"
+	{
+		"zho"		"- 'sm_sizeplayer': 調整玩家模型大小 (用法: sm_sizeplayer <#userid|name> <value>) | 範例: !sizeplayer @me 0.1"
+	}
+	"HelpSizeTarget"
+	{
+		"zho"		"- 'sm_sizetarget': 調整準星指向entity的大小 (用法: sm_sizetarget <value>) | 範例: !sizetarget 5.0"
+	}
+	"HelpSpeedPlayer"
+	{
+		"zho"		"- 'sm_speedplayer': 設定玩家移動速度 (用法: sm_speedplayer <#userid|name> <value>) | 範例: !speedplayer @me 1.5"
+	}
+	"HelpTeleport"
+	{
+		"zho"		"- 'sm_teleport': 把玩家傳送到你的準星位置 (用法: sm_teleport <#userid|name>) | 範例: !teleport Coach"
+	}
+	"HelpTeleportEnt"
+	{
+		"zho"		"- 'sm_teleportent': 把所有指定類名entity傳送到準星位置 (用法: sm_teleportent <classname>) | 範例: !teleportent weapon_adrenaline"
+	}
+	"HelpTempHp"
+	{
+		"zho"		"- 'sm_temphp': 設定玩家暫時生命值 (用法: sm_temphp <#userid|name> <amount>) | 範例: !temphp Rochelle 50"
+	}
+	"HelpVomitPlayer"
+	{
+		"zho"		"- 'sm_vomitplayer': 讓指定玩家被嘔吐 (用法: sm_vomitplayer <#userid|name>) | 範例: !vomitplayer @me"
+	}
+	"HelpWeaponRain"
+	{
+		"zho"		"- 'sm_weaponrain': 下指定武器雨 (用法: sm_weaponrain <weapon name>) | 範例: !weaponrain adrenaline"
+	}
+	"HelpWipeEntity"
+	{
+		"zho"		"- 'sm_wipeentity': 刪除所有指定類名的entity (用法: !wipeentity <classname>) | 範例: !wipeentity infected"
+	}
+	"InvalidOrNotAiming"
+	{
+		"zho"		"無效Entity或未瞄準Entity"
+	}
+	"MapNotSupported"
+	{
+		"zho"		"當前地圖不支援該指令!"
+	}
+	"MenuPlayerCatInvalid"
+	{
+		"zho"		"玩家指令目錄無效!"
+	}
+	"MenuRefreshed"
+	{
+		"zho"		"成功重新整理管理員選單"
+	}
+	"MenuRefreshing"
+	{
+		"zho"		"正在重新整理管理員選單"
+	}
+	"MenuServerCatInvalid"
+	{
+		"zho"		"伺服器指令目錄無效!"
+	}
+	"NoRescueVehicle"
+	{
+		"zho"		"該地圖沒有救援車輛或不支援該功能!"
+	}
+	"NoSpectatorTarget"
+	{
+		"zho"		"你不能將該指令用於觀察者"
+	}
+	"NoTargets"
+	{
+		"zho"		"找不到該名字的目標!"
+	}
+	"NotOnServerConsole"
+	{
+		"zho"		"不能在伺服器控制台執行該指令!"
+	}
+	"NumberTooBig"
+	{
+		"#format"		"{1:f}"
+		"zho"		"數字 <{1:f}> 太大了 (最大: 65000)"
+	}
+	"NumberTooSmall"
+	{
+		"#format"		"{1:f}"
+		"zho"		"數字 <{1:f}> 太小了 (最小: 0)"
+	}
+	"OnlySurvTankIncap"
+	{
+		"zho"		"只有生還者和Tank能被擊倒!"
+	}
+	"OnlySurvivors"
+	{
+		"zho"		"該指令只能用於生還者"
+	}
+	"OutOfWorldExplode"
+	{
+		"zho"		"目標點在世界幾何體外, 改為在原點爆炸"
+	}
+	"OutOfWorldTeleport"
+	{
+		"zho"		"目標點在世界幾何體外, 改為傳送到原點"
+	}
+	"PanicStarting"
+	{
+		"zho"		"正在建立屍潮..."
+	}
+	"ParticleNoParent"
+	{
+		"zho"		"未指定 parent 選項, 預設不掛接"
+	}
+	"PlayerNotIncap"
+	{
+		"zho"		"該玩家未倒地"
+	}
+	"RescueNotReady"
+	{
+		"zho"		"請等待救援車輛準備就緒!"
+	}
+	"ScanModelNoTarget"
+	{
+		"zho"		"找不到有效目標!"
+	}
+	"ScanModelResult"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"zho"		"實體 <{1:s}>({2:d}) 的模型是 {3:s}"
+	}
+	"SetModelEntityDone"
+	{
+		"#format"		"{1:s},{2:i},{3:s}"
+		"zho"		"成功將 {1:s} 模型設定到 {2:i} 個 <{3:s}>"
+	}
+	"SpecifyExplosionPos"
+	{
+		"zho"		"請指定爆炸位置"
+	}
+	"SpecifyHPType"
+	{
+		"zho"		"指定你想要的HP類型"
+	}
+	"SpectatorNoBleed"
+	{
+		"zho"		"不能讓觀察者流血!"
+	}
+	"SpectatorNoColor"
+	{
+		"zho"		"不能改變觀察者的顏色"
+	}
+	"SpectatorNoHealth"
+	{
+		"zho"		"觀察者沒有生命值!"
+	}
+	"SpectatorNoIncap"
+	{
+		"zho"		"觀察者不能被擊倒!"
+	}
+	"SpectatorNoRush"
+	{
+		"zho"		"觀察者不能衝鋒!"
+	}
+	"SpectatorNoSize"
+	{
+		"zho"		"觀察者沒有可縮放的模型"
+	}
+	"SpectatorNoSpeed"
+	{
+		"zho"		"不能設定觀察者的速度!"
+	}
+	"SpectatorNoTarget"
+	{
+		"zho"		"觀察者不能成為目標"
+	}
+	"SpectatorNoVomit"
+	{
+		"zho"		"觀察者不能被嘔吐!"
+	}
+	"SurvivorRainHint"
+	{
+		"zho"		"倖存者...下雨了?!"
+	}
+	"TargetNotAlive"
+	{
+		"zho"		"目標不是活著的!"
+	}
+	"TargetTeamInvalid"
+	{
+		"zho"		"目標隊伍無效"
+	}
+	"TeleportEntDone"
+	{
+		"#format"		"{1:i},{2:s}"
+		"zho"		"成功傳送 {1:i} 個 <{2:s}>"
+	}
+	"UsageAcidSpill"
+	{
+		"zho"		"用法: sm_acidspill <#userid|name>"
+	}
+	"UsageAdren"
+	{
+		"zho"		"用法: sm_adren <#userid|name>"
+	}
+	"UsageAirstrike"
+	{
+		"zho"		"用法: sm_airstrike <#userid|name>"
+	}
+	"UsageBleedPlayer"
+	{
+		"zho"		"用法: sm_bleedplayer <#userid|name> <duration>"
+	}
+	"UsageBugPlayer"
+	{
+		"zho"		"用法: sm_bugplayer <#userid|name>"
+	}
+	"UsageChangeHp"
+	{
+		"zho"		"用法: sm_changehp <#userid|name> <perm | temp>"
+	}
+	"UsageCharge"
+	{
+		"zho"		"用法: sm_charge <#userid|name>"
+	}
+	"UsageCheat"
+	{
+		"zho"		"用法: sm_cheat <command> <arguments>*"
+	}
+	"UsageCmdPlayer"
+	{
+		"zho"		"用法: sm_cmdplayer <#userid|name> <command>"
+	}
+	"UsageColorPlayer"
+	{
+		"zho"		"用法: sm_colorplayer <#userid|name> <R G B A>"
+	}
+	"UsageColorTarget"
+	{
+		"zho"		"用法: sm_colortarget <R G B A>"
+	}
+	"UsageCreateParticle"
+	{
+		"zho"		"用法: sm_createparticle <#userid|name> <particle> <parent: yes|no> <duration>"
+	}
+	"UsageDestroyPlayer"
+	{
+		"zho"		"用法: sm_destroyplayer <#userid|name>"
+	}
+	"UsageDontRush"
+	{
+		"zho"		"用法: sm_dontrush <#userid|name>"
+	}
+	"UsageGodMode"
+	{
+		"zho"		"用法: sm_godmode <#userid|name>"
+	}
+	"UsageIgnite"
+	{
+		"zho"		"用法: sm_ignite <#userid|name> <duration>"
+	}
+	"UsageIncapPlayer"
+	{
+		"zho"		"用法: sm_incapplayer <#userid|name>"
+	}
+	"UsageOldMovie"
+	{
+		"zho"		"用法: sm_oldmovie <#userid|name>"
+	}
+	"UsageRCheat"
+	{
+		"zho"		"用法: sm_rcheat <command>"
+	}
+	"UsageRevive"
+	{
+		"zho"		"用法: sm_revive <#userid|name>"
+	}
+	"UsageSetExplosion"
+	{
+		"zho"		"用法: sm_setexplosion <position | cursor>"
+	}
+	"UsageSetHpPlayer"
+	{
+		"zho"		"用法: sm_sethpplayer <#userid|name> <amount>"
+	}
+	"UsageSetModel"
+	{
+		"zho"		"用法: sm_setmodel <#userid|name> <model>"
+	}
+	"UsageSetModelEntity"
+	{
+		"zho"		"用法: sm_setmodelentity <classname> <model>"
+	}
+	"UsageShake"
+	{
+		"zho"		"用法: sm_shake <#userid|name> <duration>"
+	}
+	"UsageShove"
+	{
+		"zho"		"用法: sm_shove <#userid|name>"
+	}
+	"UsageSizePlayer"
+	{
+		"zho"		"用法: sm_sizeplayer <#userid|name> <value>"
+	}
+	"UsageSizeTarget"
+	{
+		"zho"		"用法: sm_sizetarget <value>"
+	}
+	"UsageSpeedPlayer"
+	{
+		"zho"		"用法: sm_speedplayer <#userid|name> <value>"
+	}
+	"UsageTeleport"
+	{
+		"zho"		"用法: sm_teleport <#userid|name>"
+	}
+	"UsageTeleportEnt"
+	{
+		"zho"		"用法: sm_teleportent <classname>"
+	}
+	"UsageTempHp"
+	{
+		"zho"		"用法: sm_temphp <#userid|name> <amount>"
+	}
+	"UsageVomitPlayer"
+	{
+		"zho"		"用法: sm_vomitplayer <#userid|name>"
+	}
+	"UsageWeaponRain"
+	{
+		"zho"		"用法: sm_weaponrain <weapon name>"
+	}
+	"WrongWeaponType"
+	{
+		"zho"		"錯誤的武器類型"
+	}
+}

@@ -1,0 +1,564 @@
+"Phrases"
+{
+	"AlreadyIncap"
+	{
+		"en"		"Cannot incapacitate an already-incapacitated survivor!"
+	}
+	"BodiesWiped"
+	{
+		"#format"		"{1:i}"
+		"en"		"Successfully wiped {1:i} bod(ies)"
+	}
+	"ClientInvalid"
+	{
+		"en"		"Client is invalid"
+	}
+	"DontRushHint"
+	{
+		"en"		"You were sent back to the start for rushing too fast!"
+	}
+	"EntitiesWiped"
+	{
+		"#format"		"{1:i},{2:s}"
+		"en"		"Successfully deleted {1:i} entity(ies) <{2:s}>"
+	}
+	"EntityClassname"
+	{
+		"#format"		"{1:s}"
+		"en"		"Classname: {1:s}"
+	}
+	"ExampleCreateParticle"
+	{
+		"en"		"Example: !createparticle @me no 5 (Teleports the particle to my position, without parenting it, and stops the effect after 5 seconds)"
+	}
+	"ExampleSetModel"
+	{
+		"en"		"Example: !setmodel @me models/props_interiors/table_bedside.mdl"
+	}
+	"ExampleSetModelEntity"
+	{
+		"en"		"Example: !setmodelentity infected models/props_interiors/table_bedside.mdl"
+	}
+	"GnomeRainHint"
+	{
+		"en"		"It's raining gnomes!"
+	}
+	"GnomesWiped"
+	{
+		"#format"		"{1:i}"
+		"en"		"Successfully wiped {1:i} gnome(s)"
+	}
+	"GodModeOff"
+	{
+		"en"		"God mode for the selected player: OFF"
+	}
+	"GodModeOn"
+	{
+		"en"		"God mode for the selected player: ON"
+	}
+	"GrabAlreadyHolding"
+	{
+		"en"		"You are already holding an entity"
+	}
+	"GrabAlreadyMoved"
+	{
+		"en"		"That entity has already been moved"
+	}
+	"GrabCancelled"
+	{
+		"en"		"Grab cancelled (entity was destroyed)"
+	}
+	"GrabInvalid"
+	{
+		"en"		"Invalid entity"
+	}
+	"GrabReleased"
+	{
+		"en"		"You are no longer holding an object"
+	}
+	"GrabSuccess"
+	{
+		"en"		"You are now holding an entity"
+	}
+	"GrabSuccessInv"
+	{
+		"en"		"You are now holding an entity (visible only to you)"
+	}
+	"HelpAcidSpill"
+	{
+		"en"		"- 'sm_acidspill': Spawns a spitter's acid spill on your the desired player (Usage: sm_acidspill <#userid|name>) | Example: !acidspill @me"
+	}
+	"HelpAdren"
+	{
+		"en"		"- 'sm_adren': Gives a player the adrenaline effect (Usage: sm_adren <#userid|name>) | Example: !adren Nick"
+	}
+	"HelpAirstrike"
+	{
+		"en"		"- 'sm_airstrike': Will send an airstrike attack to the target (Usage: sm_airstrike <#userid|name>) | Example: !airstrike @me"
+	}
+	"HelpBleedPlayer"
+	{
+		"en"		"- 'sm_bleedplayer': Will force a player to bleed (Usage: sm_bleedplayer <#userid|name> <duration>) | Example: !bleedplayer @me 7"
+	}
+	"HelpChangeHp"
+	{
+		"en"		"- 'sm_changehp': Will switch a player's health between temporal or permanent (Usage: sm_changehp <#userid|name> <perm|temp>) | Example: !changehp @me perm"
+	}
+	"HelpCharge"
+	{
+		"en"		"- 'sm_charge': Will launch a survivor far away (Usage: sm_charge <#userid|name>) | Example: !charge Coach"
+	}
+	"HelpCheat"
+	{
+		"en"		"- 'sm_cheat': Bypass any command and executes it (Usage: sm_cheat <command> <arguments>*) | Example: !cheat z_spawn 'tank auto'"
+	}
+	"HelpCmdPlayer"
+	{
+		"en"		"- 'sm_cmdplayer': Will control a player's console (Usage: sm_cmdplayer <#userid|name> <command>) | Example: !cmdplayer PlayerName '+forward'"
+	}
+	"HelpColorPlayer"
+	{
+		"en"		"- 'sm_colorplayer': Set a player's model color (Usage: sm_colorplayer <#userid|name> <R G B A>) | Example: !colorplayer @me '24 34 38 0'"
+	}
+	"HelpColorTarget"
+	{
+		"en"		"- 'sm_colortarget': Will change the color of the aiming target entity (Usage: sm_colortarget <R G B A>) | Example: !colortarget '43 55 255 179'"
+	}
+	"HelpCreateParticle"
+	{
+		"en"		"- 'sm_createparticle': Creates a particle with the option to parent it (Usage: sm_createparticle <#userid|name> <particle> <parent: yes|no> <duration> Example: !createparticle @me ParticleName no 5"
+	}
+	"HelpDontRush"
+	{
+		"en"		"- 'sm_dontrush': Forces a player to re-appear in the starting safe zone (Usage: sm_dontrush <#userid|name>) | Example: !dontrush RusherName"
+	}
+	"HelpGnomeRain"
+	{
+		"en"		"- 'sm_gnomerain': Will rain gnomes within your position | Example: !gnomerain"
+	}
+	"HelpGnomeWipe"
+	{
+		"en"		"- 'sm_gnomewipe': Will delete all the gnomes in the map | Example: !gnomewipe"
+	}
+	"HelpGodMode"
+	{
+		"en"		"- 'sm_godmode': Will activate or deactivate godmode from player (Usage: sm_godmode <#userid|name>) | Example: !godmode @me"
+	}
+	"HelpGrabEntity"
+	{
+		"en"		"- 'sm_grabentity': Grabs an aiming entity, if possible | Example: !grabentity"
+	}
+	"HelpGrabEntityInv"
+	{
+		"en"		"- 'sm_grabentity_inv': Grabs an aiming entity, visible only to you (collisions remain) | Example: !grabentity_inv"
+	}
+	"HelpHeader"
+	{
+		"en"		"********************** Custom Commands List **********************"
+	}
+	"HelpHintText"
+	{
+		"en"		"- 'sm_hinttext': Prints an instructor hint to all players (Usage: sm_hinttext <hint>) | Example: !hinttext 'This is a hint text message'"
+	}
+	"HelpIgnite"
+	{
+		"en"		"- 'sm_ignite': Ignites a survivor player (Usage: sm_ignite <#userid|name> <duration>) | Example: !ignite @me 4"
+	}
+	"HelpIncapPlayer"
+	{
+		"en"		"- 'sm_incapplayer': Incapacitates a survivor or tank (Usage: sm_incapplayer <#userid|name> | Example: !incapplayer @me)"
+	}
+	"HelpL4dRain"
+	{
+		"en"		"- 'sm_l4drain': Will rain left 4 dead 1 survivors | Example: !l4drain"
+	}
+	"HelpNoRescue"
+	{
+		"en"		"- 'sm_norescue': Forces the rescue vehicle to leave | Example: !norescue"
+	}
+	"HelpOldMovie"
+	{
+		"en"		"- 'sm_oldmovie': Sets a player into black and white (Usage: sm_oldmovie <#userid|name>) | Example: !oldmovie @me"
+	}
+	"HelpOpenConsole"
+	{
+		"en"		"Open your console to see the command list"
+	}
+	"HelpOptionalArg"
+	{
+		"en"		"*: Optional argument"
+	}
+	"HelpPanic"
+	{
+		"en"		"- 'sm_panic': Forces a panic event, ignoring the director | Example: !panic"
+	}
+	"HelpRCheat"
+	{
+		"en"		"- 'sm_rcheat': Bypass any command and executes it on the server console (Usage: sm_rcheat <command>) | Example: !rcheat director_stop"
+	}
+	"HelpRevive"
+	{
+		"en"		"- 'sm_revive': Revives an incapacitated player (Usage: sm_revive <#userid|name>) | Example: !revive Coach"
+	}
+	"HelpScanModel"
+	{
+		"en"		"- 'sm_scanmodel': Scans the model of an aiming entity, if possible | Example: !scanmodel"
+	}
+	"HelpSetExplosion"
+	{
+		"en"		"- 'sm_setexplosion': Creates an explosion on your feet or where you are looking at (Usage: sm_setexplosion <position |cursor>) | Example: !setexplosion position"
+	}
+	"HelpSetHpPlayer"
+	{
+		"en"		"- 'sm_sethpplayer': Set a player's health (Usage: sm_sethpplayer <#userid|name> <amount>) | Example: !sethpplayer @me 50"
+	}
+	"HelpSetModel"
+	{
+		"en"		"- 'sm_setmodel': Sets a player's model relative to the models folder (Usage: sm_setmodel <#userid|name> <model>) | Example: !setmodel @me models/props_interiors/table_bedside.mdl"
+	}
+	"HelpSetModelEntity"
+	{
+		"en"		"- 'sm_setmodelentity': Sets all entities model that match the given classname (Usage: sm_setmodelentity <classname> <model>) | Example: !setmodelentity infected models/props_interiors/table_bedside.mdl"
+	}
+	"HelpShakePlayer"
+	{
+		"en"		"- 'sm_shakeplayer': Will shake a player screen during the desired amount of time (Usage: sm_shake <#userid|name> <duration>) | Example: !shakeplayer @me 5"
+	}
+	"HelpShove"
+	{
+		"en"		"- 'sm_shove': Shoves a player (Usage: sm_shove <#userid|name>) | Example: !shove @all"
+	}
+	"HelpSizePlayer"
+	{
+		"en"		"- 'sm_sizeplayer': Resize a player's model scale (Usage: sm_sizeplayer <#userid|name> <value>) | Example: !sizeplayer @me 0.1"
+	}
+	"HelpSizeTarget"
+	{
+		"en"		"- 'sm_sizetarget': Will re-size the aiming target entity (Usage: sm_sizetarget <value>) | Example: !sizetarget 5.0"
+	}
+	"HelpSpeedPlayer"
+	{
+		"en"		"- 'sm_speedplayer': Set a player's speed (Usage: sm_speedplayer <#userid|name> <value>) | Example: !speedplayer @me 1.5"
+	}
+	"HelpTeleport"
+	{
+		"en"		"- 'sm_teleport': Teleports a player to your cursor position (Usage: sm_teleport <#userid|name>) | Example: !teleport Coach"
+	}
+	"HelpTeleportEnt"
+	{
+		"en"		"- 'sm_teleportent': Teleports all entities with the given classname to your cursor position (Usage: sm_teleportent <classname>) | Example: !teleportent weapon_adrenaline"
+	}
+	"HelpTempHp"
+	{
+		"en"		"- 'sm_temphp': Sets a player temporary health into the desired value (Usage: sm_temphp <#userid|name> <amount>) | Example: !temphp Rochelle 50"
+	}
+	"HelpVomitPlayer"
+	{
+		"en"		"- 'sm_vomitplayer': Vomits the desired player (Usage: sm_vomitplayer <#userid|name>) | Example: !vomitplayer @me"
+	}
+	"HelpWeaponRain"
+	{
+		"en"		"- 'sm_weaponrain': Will rain the specified weapon (Usage: sm_weaponrain <weapon name>) | Example: !weaponrain adrenaline"
+	}
+	"HelpWipeEntity"
+	{
+		"en"		"- 'sm_wipeentity': Wipe all entities with the given classname (Usage: !wipeentity <classname>) | Example: !wipeentity infected"
+	}
+	"InvalidOrNotAiming"
+	{
+		"en"		"Invalid entity, or not aiming at an entity"
+	}
+	"MapNotSupported"
+	{
+		"en"		"The current map does not support this command!"
+	}
+	"MenuPlayerCatInvalid"
+	{
+		"en"		"Player command category is invalid!"
+	}
+	"MenuRefreshed"
+	{
+		"en"		"Admin menu refreshed successfully"
+	}
+	"MenuRefreshing"
+	{
+		"en"		"Refreshing the admin menu"
+	}
+	"MenuServerCatInvalid"
+	{
+		"en"		"Server command category is invalid!"
+	}
+	"NoRescueVehicle"
+	{
+		"en"		"This map has no rescue vehicle or does not support this feature!"
+	}
+	"NoSpectatorTarget"
+	{
+		"en"		"You cannot use this command on spectators"
+	}
+	"NoTargets"
+	{
+		"en"		"No targets found with the given name!"
+	}
+	"NotOnServerConsole"
+	{
+		"en"		"This command cannot be executed from the server console!"
+	}
+	"NumberTooBig"
+	{
+		"#format"		"{1:f}"
+		"en"		"The number <{1:f}> is too big (max: 65000)"
+	}
+	"NumberTooSmall"
+	{
+		"#format"		"{1:f}"
+		"en"		"The number <{1:f}> is too small (min: 0)"
+	}
+	"OnlySurvTankIncap"
+	{
+		"en"		"Only survivors and tanks can be incapacitated!"
+	}
+	"OnlySurvivors"
+	{
+		"en"		"This command can only be used on survivors"
+	}
+	"OutOfWorldExplode"
+	{
+		"en"		"Vector out of world geometry. Exploding on origin instead"
+	}
+	"OutOfWorldTeleport"
+	{
+		"en"		"Vector out of world geometry. Teleporting to origin instead"
+	}
+	"PanicStarting"
+	{
+		"en"		"Creating a panic event..."
+	}
+	"ParticleNoParent"
+	{
+		"en"		"No parent option given. By default it won't be parented"
+	}
+	"PlayerNotIncap"
+	{
+		"en"		"The player is not incapacitated"
+	}
+	"RescueNotReady"
+	{
+		"en"		"Please wait until the rescue vehicle is ready!"
+	}
+	"ScanModelNoTarget"
+	{
+		"en"		"Cannot find a valid target!"
+	}
+	"ScanModelResult"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"en"		"The model of entity <{1:s}>({2:d}) is {3:s}"
+	}
+	"SetModelEntityDone"
+	{
+		"#format"		"{1:s},{2:i},{3:s}"
+		"en"		"Set model {1:s} on {2:i} entity(ies) <{3:s}>"
+	}
+	"SpecifyExplosionPos"
+	{
+		"en"		"Specify the explosion position"
+	}
+	"SpecifyHPType"
+	{
+		"en"		"Specify the HP type you want"
+	}
+	"SpectatorNoBleed"
+	{
+		"en"		"Spectators cannot be forced to bleed!"
+	}
+	"SpectatorNoColor"
+	{
+		"en"		"Cannot change the color of a spectator"
+	}
+	"SpectatorNoHealth"
+	{
+		"en"		"Spectators have no health!"
+	}
+	"SpectatorNoIncap"
+	{
+		"en"		"Spectators cannot be incapacitated!"
+	}
+	"SpectatorNoRush"
+	{
+		"en"		"Spectators cannot even rush!"
+	}
+	"SpectatorNoSize"
+	{
+		"en"		"Spectators have no scalable model!"
+	}
+	"SpectatorNoSpeed"
+	{
+		"en"		"Cannot set a spectator's speed!"
+	}
+	"SpectatorNoTarget"
+	{
+		"en"		"Spectators cannot be the target"
+	}
+	"SpectatorNoVomit"
+	{
+		"en"		"Spectators cannot be vomited!"
+	}
+	"SurvivorRainHint"
+	{
+		"en"		"Survivors... is it raining?!"
+	}
+	"TargetNotAlive"
+	{
+		"en"		"The target is not alive!"
+	}
+	"TargetTeamInvalid"
+	{
+		"en"		"The target's team is invalid"
+	}
+	"TeleportEntDone"
+	{
+		"#format"		"{1:i},{2:s}"
+		"en"		"Successfully teleported {1:i} entity(ies) <{2:s}>"
+	}
+	"UsageAcidSpill"
+	{
+		"en"		"Usage: sm_acidspill <#userid|name>"
+	}
+	"UsageAdren"
+	{
+		"en"		"Usage: sm_adren <#userid|name>"
+	}
+	"UsageAirstrike"
+	{
+		"en"		"Usage: sm_airstrike <#userid|name>"
+	}
+	"UsageBleedPlayer"
+	{
+		"en"		"Usage: sm_bleedplayer <#userid|name> <duration>"
+	}
+	"UsageBugPlayer"
+	{
+		"en"		"Usage: sm_bugplayer <#userid|name>"
+	}
+	"UsageChangeHp"
+	{
+		"en"		"Usage: sm_changehp <#userid|name> <perm | temp>"
+	}
+	"UsageCharge"
+	{
+		"en"		"Usage: sm_charge <#userid|name>"
+	}
+	"UsageCheat"
+	{
+		"en"		"Usage: sm_cheat <command> <arguments>*"
+	}
+	"UsageCmdPlayer"
+	{
+		"en"		"Usage: sm_cmdplayer <#userid|name> <command>"
+	}
+	"UsageColorPlayer"
+	{
+		"en"		"Usage: sm_colorplayer <#userid|name> <R G B A>"
+	}
+	"UsageColorTarget"
+	{
+		"en"		"Usage: sm_colortarget <R G B A>"
+	}
+	"UsageCreateParticle"
+	{
+		"en"		"Usage: sm_createparticle <#userid|name> <particle> <parent: yes|no> <duration>"
+	}
+	"UsageDestroyPlayer"
+	{
+		"en"		"Usage: sm_destroyplayer <#userid|name>"
+	}
+	"UsageDontRush"
+	{
+		"en"		"Usage: sm_dontrush <#userid|name>"
+	}
+	"UsageGodMode"
+	{
+		"en"		"Usage: sm_godmode <#userid|name>"
+	}
+	"UsageIgnite"
+	{
+		"en"		"Usage: sm_ignite <#userid|name> <duration>"
+	}
+	"UsageIncapPlayer"
+	{
+		"en"		"Usage: sm_incapplayer <#userid|name>"
+	}
+	"UsageOldMovie"
+	{
+		"en"		"Usage: sm_oldmovie <#userid|name>"
+	}
+	"UsageRCheat"
+	{
+		"en"		"Usage: sm_rcheat <command>"
+	}
+	"UsageRevive"
+	{
+		"en"		"Usage: sm_revive <#userid|name>"
+	}
+	"UsageSetExplosion"
+	{
+		"en"		"Usage: sm_setexplosion <position | cursor>"
+	}
+	"UsageSetHpPlayer"
+	{
+		"en"		"Usage: sm_sethpplayer <#userid|name> <amount>"
+	}
+	"UsageSetModel"
+	{
+		"en"		"Usage: sm_setmodel <#userid|name> <model>"
+	}
+	"UsageSetModelEntity"
+	{
+		"en"		"Usage: sm_setmodelentity <classname> <model>"
+	}
+	"UsageShake"
+	{
+		"en"		"Usage: sm_shake <#userid|name> <duration>"
+	}
+	"UsageShove"
+	{
+		"en"		"Usage: sm_shove <#userid|name>"
+	}
+	"UsageSizePlayer"
+	{
+		"en"		"Usage: sm_sizeplayer <#userid|name> <value>"
+	}
+	"UsageSizeTarget"
+	{
+		"en"		"Usage: sm_sizetarget <value>"
+	}
+	"UsageSpeedPlayer"
+	{
+		"en"		"Usage: sm_speedplayer <#userid|name> <value>"
+	}
+	"UsageTeleport"
+	{
+		"en"		"Usage: sm_teleport <#userid|name>"
+	}
+	"UsageTeleportEnt"
+	{
+		"en"		"Usage: sm_teleportent <classname>"
+	}
+	"UsageTempHp"
+	{
+		"en"		"Usage: sm_temphp <#userid|name> <amount>"
+	}
+	"UsageVomitPlayer"
+	{
+		"en"		"Usage: sm_vomitplayer <#userid|name>"
+	}
+	"UsageWeaponRain"
+	{
+		"en"		"Usage: sm_weaponrain <weapon name>"
+	}
+	"WrongWeaponType"
+	{
+		"en"		"Wrong weapon type"
+	}
+}
