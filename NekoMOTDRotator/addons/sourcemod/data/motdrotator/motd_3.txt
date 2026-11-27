@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>瓜子田</title>
+</head>
+<body style="margin:0; padding:0; background:#0a0a0f; color:#f5f5f5; font-family:'Microsoft YaHei', 'Segoe UI', Arial, sans-serif; overflow:hidden;">
+
+<!-- 背景图 -->
+<img src="https://i.imgs.ovh/2026/11/11/2ca3e9b1eef4547cf83a60c53cf78b72.jpg" style="width:100%; height:100%; position:absolute; top:0; left:0; object-fit:cover; opacity:0.38; z-index:0;">
+
+<!-- 暗色遮罩 -->
+<div style="position:absolute; top:0; left:0; width:100%; height:100%; background:linear-gradient(to right, rgba(3,3,8,0.94) 0%, rgba(3,3,8,0.88) 50%, rgba(3,3,8,0.72) 100%); z-index:1;"></div>
+
+<!-- 主内容 -->
+<div style="position:relative; z-index:2; padding:14px 26px; max-width:900px;">
+
+  <!-- 标题 -->
+  <div style="margin-bottom:10px; border-left:4px solid #00e5ff; padding-left:11px;">
+    <div style="font-size:23px; font-weight:bold; color:#00e5ff; letter-spacing:2px; text-shadow:0 0 10px rgba(0,229,255,0.5);">瓜子田</div>
+    <div style="font-size:12.5px; color:#cfd8dc; margin-top:2px; text-shadow:1px 1px 2px #000;">QQ群：1044737697　｜　禁止霸服</div>
+  </div>
+
+  <!-- 常规指令 -->
+  <div style="margin-bottom:9px;">
+    <div style="font-size:13.5px; color:#00e5ff; margin-bottom:5px;">■ 常规指令</div>
+    <div style="font-size:13px; line-height:1.58; color:#f0f0f0; text-shadow:1px 1px 2px rgba(0,0,0,0.85);">
+      <span style="color:#80deea;">!join</span> 加入（不支持!jg）　
+      <span style="color:#80deea;">!away</span> 闲置　
+      <span style="color:#80deea;">!csm</span> 更换角色　
+      <span style="color:#80deea;">!zs</span> 自杀<br>
+      <span style="color:#80deea;">!menu</span> 菜单（多特投票 / 帽子 / 手电筒）　
+      <span style="color:#80deea;">!vt</span> 杂项投票<br>
+      <span style="color:#80deea;">!chmap</span> 投票换图　
+      <span style="color:#80deea;">!mapnext</span> 终局下一张地图投票　
+      <span style="color:#80deea;">!ivote</span> 投票踢人<br>
+      <span style="color:#80deea;">!votemode</span> 投票切换模式（当前地图会重启）　
+      <span style="color:#80deea;">!g</span> 丢弃手中物品
+    </div>
+  </div>
+
+  <!-- 娱乐与优化 -->
+  <div style="margin-bottom:8px;">
+    <div style="font-size:13.5px; color:#00e5ff; margin-bottom:5px;">■ 娱乐指令与优化</div>
+    <div style="font-size:13px; line-height:1.55; color:#f0f0f0; text-shadow:1px 1px 2px rgba(0,0,0,0.85);">
+      <span style="color:#80deea;">!lmc</span> 更换当前人物模型　
+      <span style="color:#80deea;">!selfie</span> 欣赏模型（!selfie 0-100 调距离）　
+      <span style="color:#80deea;">!voice &lt;10-255&gt;</span> 调整语音语速　
+      <span style="color:#80deea;">!faint</span> 倒头就睡<br><br>
+      <span style="color:#b2ebf2;">操作说明：</span><br>
+      TAB + R　开启伤害跳字系统<br>
+      投掷物：按住左键再按 E 显示抛物线　｜　!grenade 或 左键+右键 切换效果<br>
+      SCAR：鼠标中键切换全自动 / 三连发<br>
+      双击R=普通抓取；按住静步 双击R=超远抓取；持握中右键=投掷；持握中按住静步+右键=大力投掷。持握中单击R=放下；被抓玩家按空格=挣脱；按狙击瞄准键=回正模式。<br>
+      E + 右键　肘击队友　｜　对着门前进+右键直接推开<br>
+      医疗包 / 投掷物对着队友按 R 可给予<br>
+      榴弹中键切换模式　｜　小刀 / AWP / Scout 增强　｜　M60 备弹增加<br>
+      可乐范围回血　｜　真实胆汁　｜　汽车受击会爆炸　｜　可与队友一起拉倒地的人
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div style="margin-top:8px; font-size:12px; color:#b0bec5; border-top:1px solid rgba(0,229,255,0.22); padding-top:7px; text-shadow:1px 1px 2px #000;">
+    玩得开心，理性游戏。
+  </div>
+
+</div>
+</body>
+</html>
