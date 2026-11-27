@@ -1,7 +1,7 @@
 # Push And Drag（推人拖物插件）优化版
 
 Left 4 Dead 1 / Left 4 Dead 2 的抓取、拖动、投掷插件。
-原版作者 **Pan Xiaohai**（v1.2）；本仓库为大幅优化/修复版，当前版本 **v2.5.0**。
+原版作者 **Pan Xiaohai**（v1.2）https://forums.alliedmods.net/showthread.php?p=1325370；本仓库为大幅优化/修复版，当前版本 **v2.5.0**。
 
 ---
 
